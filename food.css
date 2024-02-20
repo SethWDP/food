@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 10lvh;
+    display: flex;
+}
+.name{
+    width: 20%;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+nav{
+    width: 60%;
+    height: 100%;
+}
+nav .menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 35px;
+    gap: 100px;
+}
+nav .menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 35px;
+    color: white;
+    position: relative;
+}
+.logo i{
+    cursor: pointer;
+}
+.logo .noti{
+    background-color: #c00;
+    color: #fff;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 40%;
+    top: 27%;
+    padding: 2px;
+}
+
+.main1{
+    background-color: black;
+    width: 100%;
+    height: 100lvh;
+    margin-top:1% ;
+}
+.container{
+    padding: 25px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+}
+.card-box{
+    width: 18rem;
+    height: 26rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    height: 65%;
+    background-color: pink;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-text{
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+}
+.pri-star{
+    display: flex;
+    justify-content: space-between;
+}
+.checked {
+    color: orange;
+}
+.tarang{
+    position: relative;
+}
+.main-table{
+    /* background-color: yellow; */
+    width: 22rem;
+    height: 50lvh;
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.main-table table{
+    padding: 10px;
+}
